@@ -1,9 +1,12 @@
-package io.antinolabs.library.chitchat
+package io.antinolabs.library.chitchat.Controller
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import io.antinolabs.library.chitchat.R
+import io.antinolabs.library.chitchat.Services.AuthService
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 
@@ -19,7 +22,12 @@ class CreateUserActivity : AppCompatActivity() {
     }
 
     fun createUserBtnClicked(view: View) {
-
+        AuthService.registerUser(this,"ashish173@ashish.com", "password") { complete ->
+            if (complete)
+                Toast.makeText(this,"Success",Toast.LENGTH_LONG).show()
+            else
+                Toast.makeText(this,"Failed",Toast.LENGTH_LONG).show()
+        }
     }
 
     fun generateAvatarBackgroundColour(view: View) {
