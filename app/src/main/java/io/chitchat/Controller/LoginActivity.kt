@@ -1,10 +1,10 @@
-package io.antinolabs.library.chitchat.Controller
+package io.chitchat.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import io.antinolabs.library.chitchat.R
+import io.chitchat.R
 
 class LoginActivity : AppCompatActivity() {
 

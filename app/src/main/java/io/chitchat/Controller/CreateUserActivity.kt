@@ -1,12 +1,12 @@
-package io.antinolabs.library.chitchat.Controller
+package io.chitchat.Controller
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import io.antinolabs.library.chitchat.R
-import io.antinolabs.library.chitchat.Services.AuthService
+import io.chitchat.R
+import io.chitchat.Services.AuthService
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 
