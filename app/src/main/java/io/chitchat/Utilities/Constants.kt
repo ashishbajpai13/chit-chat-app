@@ -1,4 +1,4 @@
-package io.antinolabs.library.chitchat.Utilities
+package io.chitchat.Utilities
 
 //for real device
 /*const val BASE_URL = "http://192.168.0.4:3005/v1/"*/

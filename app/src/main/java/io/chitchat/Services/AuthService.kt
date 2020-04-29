@@ -1,11 +1,11 @@
-package io.antinolabs.library.chitchat.Services
+package io.chitchat.Services
 
 import android.content.Context
 import android.util.Log
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import io.antinolabs.library.chitchat.Utilities.URL_REGISTER
+import io.chitchat.Utilities.URL_REGISTER
 import org.json.JSONObject
 
 object AuthService {
